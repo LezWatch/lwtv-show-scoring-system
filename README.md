@@ -1,2 +1,2 @@
-# lwtv-show-scoring-system
-A visual presentation explaining the LezWatch.TV show scoring system and how scores are generated.
+# LezWatch.TV Show Scoring System
+A visual presentation explaining the LezWatch.TV show scoring system and how show scores are generated.
