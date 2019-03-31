@@ -23,7 +23,13 @@ $lwtvPink: #d1548e;
 $purple: #505160;
 $blue: #68829e;
 $yellow: #aebd38;
+$yellow2: #f1c40f;
+$orange: #fe6e00;
 $green: #598234;
+$red: #c0392b;
+$gold: #ffd700;
+$silver: silver;
+$bronze: #cd7f32;
 
 $mainFont: 'Open Sans', sans-serif;
 $linkColor: #e7ad52;
@@ -69,8 +75,28 @@ $selectionBackgroundColor: #e7ad52;
 		vertical-align: middle;
 	}
 
+	.bold {
+		font-weight: 600;
+	}
+
 	.mt2 {
 		margin-top: 2rem;
+	}
+
+	.pt2 {
+		padding-top: 2rem;
+	}
+
+	.pl2 {
+		padding-left: 2rem;
+	}
+
+	.pl3 {
+		padding-left: 3rem;
+	}
+
+	.pl4 {
+		padding-left: 4rem;
 	}
 
 	.ul-left {
@@ -80,8 +106,20 @@ $selectionBackgroundColor: #e7ad52;
 		&.inline-30 {
 			li {
 				display: inline-block;
-				width: 29%;
+				width: 32%;
+				vertical-align: top;
 			}
+
+			li.width64 {
+				width: 64%;
+			}
+		}
+	}
+
+	.ulstacked {
+		li {
+			display: block !important;
+			width: 100% !important;
 		}
 	}
 
@@ -90,6 +128,10 @@ $selectionBackgroundColor: #e7ad52;
 		font-family: $headingFontBig;
 		font-size: 16rem;
 		line-height: 1.1;
+	}
+
+	.smaller {
+		font-size: 30px;
 	}
 
 	.pink {
@@ -108,8 +150,32 @@ $selectionBackgroundColor: #e7ad52;
 		color: $yellow;
 	}
 
+	.yellow2 {
+		color: $yellow2;
+	}
+
+	.orange {
+		color: $orange;
+	}
+
 	.green {
 		color: $green;
+	}
+
+	.red {
+		color: $red;
+	}
+
+	.gold {
+		color: $gold;
+	}
+
+	.silver {
+		color: $silver;
+	}
+
+	.bronze {
+		color: $bronze;
 	}
 
 	.max-500h {
